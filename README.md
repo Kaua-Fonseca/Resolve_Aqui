@@ -1,6 +1,7 @@
 <div align="center">
   <img src="docs/banner-resolve-aqui.png" alt="Resolve Aqui — Plataforma de serviços profissionais" width="100%">
 </div>
+
 # Resolve Aqui
 
 Plataforma para encontrar profissionais locais, consultar perfis e avaliações e entrar em contato diretamente.
