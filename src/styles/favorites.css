@@ -1,0 +1,43 @@
+.favorites-fab {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  width: 50px;
+  height: 50px;
+  z-index: 20;
+  border-radius: 50%;
+  border: 0;
+  background: white;
+  color: var(--navy);
+  box-shadow: 0 8px 30px #17255430;
+  display: grid;
+  place-items: center;
+}
+
+.favorites-fab i {
+  position: absolute;
+  top: 6px;
+  right: 6px;
+  width: 9px;
+  height: 9px;
+  background: #ef4444;
+  border: 2px solid white;
+  border-radius: 50%;
+}
+
+.simple-page {
+  padding: 70px 0;
+}
+
+.simple-page h1 {
+  font-size: 40px;
+  margin: 8px 0;
+}
+
+.simple-page > div > p {
+  color: var(--muted);
+}
+
+.favorite-grid {
+  margin-top: 34px;
+}

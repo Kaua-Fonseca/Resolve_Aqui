@@ -1,0 +1,5 @@
+.search-page,
+.profile-page,
+.simple-page {
+  min-height: 75vh;
+}

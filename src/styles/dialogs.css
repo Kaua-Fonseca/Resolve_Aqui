@@ -1,0 +1,120 @@
+.dialog-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  background: #0f172a80;
+  display: grid;
+  place-items: center;
+  padding: 20px;
+  backdrop-filter: blur(3px);
+}
+
+.access-dialog {
+  width: min(430px, 100%);
+  background: white;
+  border-radius: 16px;
+  padding: 32px;
+  box-shadow: 0 24px 70px #0f172a45;
+  text-align: center;
+  position: relative;
+}
+
+.dialog-close {
+  position: absolute;
+  right: 16px;
+  top: 16px;
+  border: 0;
+  background: #f1f5f9;
+  color: #64748b;
+  border-radius: 50%;
+  width: 34px;
+  height: 34px;
+  display: grid;
+  place-items: center;
+}
+
+.dialog-icon {
+  width: 60px;
+  height: 60px;
+  margin: 0 auto 18px;
+  border-radius: 18px;
+  display: grid;
+  place-items: center;
+  background: #fff7ed;
+  color: var(--orange);
+}
+
+.dialog-icon.success {
+  background: #f0fdf4;
+  color: var(--green);
+}
+
+.access-dialog h2 {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.access-dialog > p {
+  color: #64748b;
+  line-height: 1.6;
+  font-size: 13px;
+}
+
+.access-dialog > div:last-child {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 22px;
+}
+
+.review-dialog {
+  text-align: left;
+}
+
+.review-dialog .dialog-icon,
+.review-dialog > button.btn {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.service-note {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  background: #f0fdf4;
+  color: #166534 !important;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.review-stars {
+  display: flex !important;
+  justify-content: flex-start !important;
+  gap: 6px !important;
+  margin: 18px 0 !important;
+}
+
+.review-stars button {
+  border: 0;
+  background: none;
+  color: #f59e0b;
+  font-size: 34px;
+  padding: 0;
+}
+
+.review-comment {
+  font-size: 12px;
+  font-weight: 700;
+  display: block;
+  margin-bottom: 18px;
+}
+
+.review-comment textarea {
+  width: 100%;
+  min-height: 110px;
+  border: 1px solid var(--line);
+  border-radius: 9px;
+  padding: 12px;
+  margin-top: 7px;
+  resize: vertical;
+}

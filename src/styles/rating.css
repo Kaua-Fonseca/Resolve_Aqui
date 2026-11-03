@@ -1,0 +1,19 @@
+.rating {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  color: var(--navy);
+  font-size: 13px;
+}
+
+.rating svg,
+.five-stars {
+  color: #f59e0b;
+  fill: #f59e0b;
+}
+
+.rating span {
+  color: #64748b;
+  font-weight: 400;
+  margin-left: 2px;
+}

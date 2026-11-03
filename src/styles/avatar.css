@@ -1,0 +1,27 @@
+/* Avatar com iniciais (profissionais não possuem foto no cadastro) */
+
+.avatar-fallback {
+  display: grid;
+  place-items: center;
+  background: linear-gradient(135deg, #dbeafe, #e0e7ff);
+  color: var(--navy);
+  font-weight: 800;
+  font-size: 40px;
+}
+
+.pro-photo .avatar-fallback {
+  width: 100%;
+  height: 100%;
+}
+
+.result-card > .avatar-fallback {
+  width: 145px;
+  height: 155px;
+  border-radius: 10px;
+}
+
+.profile-header > .avatar-fallback {
+  width: 150px;
+  height: 150px;
+  border-radius: 14px;
+}
